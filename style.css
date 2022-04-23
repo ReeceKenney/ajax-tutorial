@@ -19,4 +19,25 @@ html, body {
     width: 100%;
     padding: 20px;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+#contentContainer span {
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc
+}
+
+#footerContainer {
+    display: flex;
+    width: 60%;
+}
+
+#footerContainer textarea {
+    flex: 1;
+    margin-right: 20px;
+    resize: none;
+    height: 40px;
 }
